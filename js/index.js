@@ -32,11 +32,11 @@ function setValues() {
 
 $('#nav-hamburger').on('click', function(){
 	console.log("clicked");
-	if($(this).closest('button').hasClass('is-active')){
+	/*if($('navbarNav').hasClass('show')){
 		$(this).closest('button').removeClass('is-active');
 	}else{
 		$(this).closest('button').addClass('is-active');
-	}
+	}*/
 });
 
 $('#drinkBtn').on('click', function(){
