@@ -45,7 +45,6 @@ a { color: inherit; }
 	/**/
 	background-color: #f0e7de;
 	margin-top: 400px;
-	padding-bottom: 200px;
 	border: 2px solid #bdc0c2;
 	border-radius: 2px;
 }
@@ -95,6 +94,7 @@ a { color: inherit; }
 .gallery-image img{
 	position: absolute;
 	height: 100%;
+	width: 100%;
 }
 
 .hours{
