@@ -56,9 +56,25 @@ a { color: inherit; }
 	flex-grow: 1;
 }
 
+.menu-items h2{
+	font-family: stencil;
+}
+
 .menu-items h3{
 	text-decoration: underline;
+	font-family: stencil;
 }
+
+.menu-items h4{
+	margin-bottom: .1em;
+	font-family: stencil;
+}
+
+.menu-items h5{
+	margin-bottom: 1em;
+	font-family: calibri;
+}
+
 
 .food-menu h4{
 	margin-bottom: 1em;
@@ -88,7 +104,7 @@ a { color: inherit; }
 
 .gallery-image{
 	overflow: hidden;
-	padding-bottom: 77%;
+	padding-bottom: 100%;
 }
 
 .gallery-image img{
@@ -228,8 +244,8 @@ a { color: inherit; }
 	border-radius: 3.6rem;
 	margin: -1.8rem;
 }
-.twitter span {
-	background-color: #4099ff;
+.yelp span {
+	background-color: #d32323;
 }
 .facebook span {
 	background-color: #3B5998;
@@ -256,8 +272,8 @@ background-color: #d6249f;
 	width: 3.6rem;
 	z-index: 10;
 }
-.icon-button .icon-twitter {
-	color: #4099ff;
+.icon-button .icon-yelp {
+	color: #d32323;
 }
 .icon-button .icon-facebook {
 	color: #3B5998;
@@ -265,7 +281,7 @@ background-color: #d6249f;
 .icon-button .icon-instagram {
 	color: #d6249f;
 }
-.icon-button:hover .icon-twitter,
+.icon-button:hover .icon-yelp,
 .icon-button:hover .icon-facebook,
 .icon-button:hover .icon-instagram {
 	color: white;
